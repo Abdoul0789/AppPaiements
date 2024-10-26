@@ -8,10 +8,10 @@ namespace AppPaiements
 {
     public  abstract  class Paiement
     {
-        public  Double Montant { get; set; }
+        public  double Montant { get; set; }
         public String Description { get;set; }
 
-        public  Paiement (Double montant, string description) {
+        public  Paiement (double montant, string description) {
 
             Montant = montant;
             Description = description;
